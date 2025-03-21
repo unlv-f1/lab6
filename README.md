@@ -48,7 +48,7 @@ Students may decide the level of complexity they'd like in their markers, but sh
 utilize more functionality than the "simple" marker example.
 
 
-###  Implementation
+##  III. Implementation
 Within the dataset folder is a csv file that contains a path for the *levine_blocked* map. Students will 
 create a raceline from this csv file using interactive markers. Students will use the markers to 
 edit the raceline to work optimally for the *levine* map. 
@@ -62,13 +62,14 @@ directly commit and push to a repo shared with your TA. Your commited code shoul
 **Demonstration**: Students will be required to show the TA their interactive marker implementation on levine. Students do not need to drive **at all**. Move the markers and demonstrate the ability to make changes to the raceline.
 
 
-###  Grading Rubric
+##  IV. Grading Rubric
 
 - Raceline Markers: **50** Points
 - Interactive Markers: **50** Points
 
 
-###  Extra Resources
+##  V. Extra Resources
 
 Interactive Markers Documentation ROS: [LINK](http://wiki.ros.org/rviz/Tutorials/Interactive%20Markers%3A%20Getting%20Started)
+
 Interactive Marker Tutorials: [LINK](https://github.com/ros-visualization/visualization_tutorials)
