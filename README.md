@@ -18,6 +18,15 @@ Interactive Markers are similar to regular Markers, but they can be manipulated 
 Users can interact with them to change their position and rotation dynamically. 
 This will be extremely helpful going forward, when students need to manipulate racelines in Pure Pursuit. 
 
+There exists a bug when building a package. (Originally, the package is for ROS 1, not ROS 2.)
+Before building the package, please apply the following fix by running:
+
+```
+cp /opt/ros/foxy/include/tf2_geometry_msgs/tf2_geometry_msgs.h /opt/ros/foxy/include/tf2_geometry_msgs/tf2_geometry_msgs.hpp
+```
+
+If you are using Docker containers, you will need to rerun this command if you rebuild your container.
+For convenience, you can add the command to your container's Dockerfile.
 
 A few example interactive markers have been provided in the package 'interactive_marker_tutorials' 
 attached to is lab. Students will run the packages as follows:
